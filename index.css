@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Dancing+Script:wght@400;500;700&family=Ephesis&family=Playfair+Display:ital@1&family=Roboto+Condensed:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Dancing+Script:wght@400;500;700&family=Ephesis&family=Italianno&family=Playfair+Display:ital,wght@0,500;1,400&family=Roboto+Condensed:ital,wght@1,100&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Dancing+Script:wght@400;500;700&family=Ephesis&family=Italianno&family=Playfair+Display:ital,wght@0,500;1,400&family=Roboto+Condensed:ital,wght@1,100&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_section{
+    background-color: black;
+    padding: 20px 0px;
+} 
+.head_port h3{
+    color: white;
+    font-family: Lato-Bold;
+}
+.head_port h3 span{
+    color: #e0063a;
+}
+.head_nav a{
+    display: inline-block;
+    padding:10px 40px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.head_nav a:hover{
+    color: #e0063a;
+    text-decoration: none;
+    border: 1px solid #e0063a;
+    border-radius: 5px;
+}
+.home_section{
+    background-color: black;
+    padding: 60px 0px;
+}
+.home_info h4{
+    color: wheat;
+    font-size: 20px;
+    padding: 0px 0px 8px 0px;
+}
+.home_info h1{
+    color: white;
+    padding: 0px 0px 8px 0px;
+}
+.home_info h1 span{
+    color: #e0063a;
+}
+.home_info h3{
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 0px 0px 8px 0px;
+}
+.home_info .email_btn{
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px 50px;
+}
+.get_btn{
+    color: #fff;
+    background-color: #e0063a;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 12px;
+    position: relative;
+    top: 0px ;
+    left: -100px;
+}
+.about_section{
+    background-color: black;
+    padding: 50px 0px;
+    color: white;
+}
+.about_left img{
+    width: 70%;
+    height: 350px;
+    border-radius: 50%;
+    border: 3px dotted white;
+}
+.about_right h1{
+    color: #e0063a;
+    font-family: 'Cinzel Decorative', serif;
+    position: relative;
+}
+.about_right h1::after{
+    position: absolute;
+    content: '';
+    width: 25%;
+    height: 2px;
+    background-color: #e0063a;
+    bottom: -4px;
+    left: 0;
+}
+.about_right h6{
+    padding: 10px 0px 5px 0px;
+    font-size: 20px;
+}
+.about_right h6 span{
+    color: #e0063a;
+}
+.about_right p{
+    color: wheat;
+}
+.about_right ul{
+    padding: 0px 0px 0px 30px;
+}
+.about_right ul li::marker{
+    color: #e0063a;
+}
+.service_section{
+    background-color: black;
+    padding: 50px 0px;
+    color: white;
+}
+.service_head h3{
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    font-family: 'Cinzel Decorative', serif;
+    padding: 0px 0px 10px 0px;
+}
+.service_head h3::first-letter{
+    font-size: 40px;
+}
+.service_head h3 span{
+    color: #e0063a;
+}
+.service_info{
+    background-color: rgb(37, 35, 35,0.7);
+    padding: 30px;
+    text-align: center;
+    height: 300px;
+}
+.service_info a i{
+    font-size: 55px;
+}
+.service_info h4{
+    padding: 10px 0px;
+}
+.service_info p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: wheat;
+    font-family: 'Poppins', sans-serif;
+}
+.hire_section{
+    background-color: black;
+    color: white;
+}
+.hire_info{
+    background-color: rgb(37, 35, 35,0.7);
+    padding: 30px 0px;
+    text-align: center;
+}
+.hire_info h3{
+    font-family: 'Cinzel Decorative', serif;
+}
+.hire_info p{
+    display: inline-block;
+    background-color: #e0063a;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px 15px;
+    margin: 10px 0px 0px 0px;
+}
+.contact_section{
+    background-color: black;
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+}
+.con_link a{
+    display: block;
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+.con_link a:hover{
+    text-decoration: none;
+    color: white;
+}
+.con_link a i{
+    color: #e0063a;
+    padding: 0px 3px 0px 0px;
+}
+.socila_icons a{
+    color: white;
+    background-color: #e0063a;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.socila_icons a:hover{
+    color: white;
+    text-decoration: none;
+}
+.socila_icons a i{
+    font-size: 20px;
+}
+.contact_info h6{
+    padding: 20px 0px;
+    color: #e0063a;
+}
+@media screen and (max-width:1200px){
+    .head_nav a{
+        padding: 10px 20px;
+    }
+    .about_left img{
+        width: 84%;
+    }
+}
+@media screen and (max-width:993px){
+    .head_nav a{
+        padding: 10px 15px;
+    }
+    .about_left img{
+        width: 100%;
+        height: 300px;
+        margin: 50px 0px;
+    }
+    .service_info{
+        height: 400px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:767px){
+    .head_port{
+        text-align: center;
+    }
+    .head_nav a{
+        padding: 10px 15px;
+        text-align: center;
+    }
+    .about_section{
+        padding: 20px 0px;
+    }
+    .about_left img{
+        width: 100%;
+        height: 300px;
+        margin: 10px 0px 20px 0px;
+        border-radius: 25px;
+        padding: 0px;
+    }
+    .about_right{
+        padding: 10px 0px 10px 0px;
+    }
+    .service_info{
+        padding: 30px;
+        height: 300px;
+        margin: 10px 0px;
+    }
+}
+@media screen and (max-width:526px){
+    .head_nav a{
+        padding: 10px 10px;
+    }
+}
+@media screen and (max-width:526px){
+    .header_section{
+        padding: 20px 0px 10px 0px;
+    } 
+    .head_nav a{
+        padding: 10px 10px;
+        font-size: 17px;
+    }
+    .home_section{
+        padding: 30px 0px;
+    }
+}
+@media screen and (max-width:432px){
+    .head_nav a{
+        padding: 10px 7px;
+    }
+}
+@media screen and (max-width:375px){
+    .head_nav a{
+        padding: 10px 2px;
+        font-size: 14px;
+    }
+    .home_info .email_btn{
+        width: 80%;
+        padding: 10px 50px;  
+    }
+    .get_btn{
+        padding: 8px 12px;
+        position: relative;
+        top: -43px ;
+        left: 180px;
+    }
+}
+
